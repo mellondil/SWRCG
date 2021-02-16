@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SWRCG"
         mc:Ignorable="d"
-        Title="SWRCG" Height="550" Width="550" Icon="/Star_Wars_Battle Droid_5.ico">
+        Title="SWRCG" Height="550" Width="550" Icon="/sw-droid.ico">
     <Grid>
 
         
