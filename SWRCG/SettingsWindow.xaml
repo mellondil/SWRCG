@@ -1,0 +1,25 @@
+﻿<Window x:Name="settingsWindow" x:Class="SWRCG.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SWRCG"
+        mc:Ignorable="d"
+        Title="Settings" Height="250" Width="450" Icon="/settings-icon_v4.png" Topmost="True" WindowStartupLocation="CenterOwner" ResizeMode="CanMinimize">
+    <Grid>
+        <Label x:Name="label1" Content="File path to data folder." HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        
+        <TextBox x:Name="dataFilePathTextBox" HorizontalAlignment="Left" Margin="15,35,0,0" Text="TextBox" TextWrapping="NoWrap" VerticalAlignment="Top" Width="375" IsReadOnly="True"/>
+
+        <Button x:Name="chooseDataPathButton" Content=" . . . " HorizontalAlignment="Right" Margin="0,34,15,0" VerticalAlignment="Top" Click="chooseDataPathButton_Click"/>
+
+        <CheckBox x:Name="isDataLoadedStatus" Content="Data Loaded Status." HorizontalAlignment="Left" Margin="15,60,0,0" VerticalAlignment="Top" Focusable="False" IsTabStop="False" IsHitTestVisible="False"/>
+        
+        <CheckBox x:Name="isThereObligationCheckBox" Content="Obligation XP." HorizontalAlignment="Left" Margin="15,110,0,0" VerticalAlignment="Top" VerticalContentAlignment="Bottom" HorizontalContentAlignment="Left" IsChecked="True" Click="isThereObligationCheckBox_Click"/>
+        
+        <CheckBox x:Name="isForceCareersEnabledCheckBox" Content="Force Careers." HorizontalAlignment="Left" Margin="15,135,0,0" VerticalAlignment="Top" IsChecked="True" Click="isForceCareersEnabledCheckBox_Click"/>
+        
+        <Button x:Name="okayButton" Content="OK" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,15,15" Width="40" IsDefault="True" ClickMode="Release" Click="okayButton_Click"/>
+
+    </Grid>
+</Window>
