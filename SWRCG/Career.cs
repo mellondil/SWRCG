@@ -52,5 +52,12 @@ namespace SWRCG
         {
             return specs.Keys;
         }
+
+        public void ReplaceKey(string initialKey, string newKey)
+        {
+            var value = specs[initialKey];
+            specs.Remove(initialKey);
+            specs[newKey] = value;
+        }
     }
 }

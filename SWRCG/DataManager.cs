@@ -316,6 +316,13 @@ namespace SWRCG
                     {
                         if (s.Value != "JEDIKNIGHT" && s.Value != "JEDIGEN" && s.Value != "JEDIMASTER")
                             career.SetSpec(s.Value);
+
+                        // Addressing issue with some datasets. Converting "STEELHANDADEPT" to "STEELHAND" to aline with Spec.
+                        if (s.Value == "STEELHANDADEPT")
+                        {
+                            career.ReplaceKey("STEELHANDADEPT", "STEELHAND");
+                        }
+
                     }
 
                     // Add force rating to career.
@@ -365,6 +372,12 @@ namespace SWRCG
 
                         Name = element.Element("Name").Value
                     };
+
+                    // Addressing issue with some datasets. Converting "STEELHANDADEPT" to "STEELHAND" to aline with career.
+                    if (spec.Key == "STEELHANDADEPT")
+                    {
+                        spec.Key = "STEELHAND";
+                    }
 
                     if (spec.Key != "JEDIKNIGHT" && spec.Key != "JEDIGEN" && spec.Key != "JEDIMASTER")
                         specsList.Add(spec);
