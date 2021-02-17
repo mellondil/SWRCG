@@ -28,7 +28,7 @@ namespace SWRCG
         private bool isThereObligation = true;
         private bool isForceCareersEnabled = true;
 
-        private readonly string SWCharGen_Full_Data_Default_Path_Segment = "\\SWCharGen\\Data Custom\\DataSet_Full_DataSet";
+        private readonly string SWCharGen_Full_Data_Default_Path_Segment = "\\SWCharGen\\DataCustom\\DataSet_Full_DataSet";
 
         private string dataFolderPath = "";
 
