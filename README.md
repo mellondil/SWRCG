@@ -2,7 +2,7 @@
 This is an open source random character generator for Oggdude's Character Generator data and/or nlx3674's dataset.
 
 # Download
-The application can be downloaded [here] (https://github.com/mellondil/SWRCG/releases) from Releases.
+The application can be downloaded [here](https://github.com/mellondil/SWRCG/releases) from Releases.
 
 Upon downloading the release, right-click the .zip file and open the Properties. Under the General tab, check Unblock, then click OK.
 
@@ -24,9 +24,9 @@ Once the data is loaded, click the Generate Character button to generate a rando
 The application also contains a "SpecPreference.csv" file. This file contains a list of characteristic preferences for each specialization. For example, "ADVISOR,Presence,Cunning" would be an entry. Feel free to apply your own preferences to the downloaded copy.
 
 # Data
-Datasets can be downloaded as part of Oggdude's Character Generator [here] (https://www.swrpgcommunity.com/gm-resources/apps-dice-utilities/oggdudes-generator) or nlx3674's dataset [here] (https://github.com/nlx3647/dataset).
+Datasets can be downloaded as part of Oggdude's Character Generator [here](https://www.swrpgcommunity.com/gm-resources/apps-dice-utilities/oggdudes-generator) or nlx3674's dataset [here](https://github.com/nlx3647/dataset).
 
 # Acknowledgements
-* [Oggdude] (https://legendsofthegalaxy.com/Oggdude/) for creating an awesome character generator.
-* [nlx3674] (https://github.com/nlx3647) for maintaining a full and up-to-date dataset.
-* [Justas Galaburda] (https://iconstore.co/author/justas-galaburda) for making the droid icon.
+* [Oggdude](https://legendsofthegalaxy.com/Oggdude/) for creating an awesome character generator.
+* [nlx3674](https://github.com/nlx3647) for maintaining a full and up-to-date dataset.
+* [Justas Galaburda](https://iconstore.co/author/justas-galaburda) for making the droid icon.
