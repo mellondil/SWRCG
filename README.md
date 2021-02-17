@@ -11,7 +11,7 @@ Unzip to a known location.
 # Use
 Open the application by launching the SWRCG.exe file.
 
-The application will attempt to find data in the user's AppData Roaming folder by default, specifically: C:\Users\<UserName>\AppData\Roaming\SWCharGen\DataCustom\DataSet_Full_DataSet
+The application will attempt to find data in the user's AppData Roaming folder by default, specifically: C:\Users\UserName\AppData\Roaming\SWCharGen\DataCustom\DataSet_Full_DataSet
 
 If no data is found there, then click the Settings icon in the lower right corner. This will open the Settings dialog window.
 
