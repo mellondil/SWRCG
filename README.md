@@ -6,7 +6,7 @@ The application can be downloaded [here](https://github.com/mellondil/SWRCG/rele
 
 Upon downloading the release, right-click the .zip file and open the Properties. Under the General tab, check Unblock, then click OK.
 
-Unzip to a known location.
+Right-click the .zip file and Extract the contains to a known location.
 
 # Use
 Open the application by launching the SWRCG.exe file.
