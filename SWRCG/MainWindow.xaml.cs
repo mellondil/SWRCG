@@ -63,6 +63,7 @@ namespace SWRCG
             settingsWindow.Owner = this;
             settingsWindow.dataFilePathTextBox.Text = SettingsManager.Instance.GetDataFolderPath();
             settingsWindow.isThereObligationCheckBox.IsChecked = SettingsManager.Instance.IsThereOblication;
+            settingsWindow.isForceCareersEnabledCheckBox.IsChecked = SettingsManager.Instance.IsForceCareersEnabled;
             settingsWindow.isDataLoadedStatus.IsChecked = SettingsManager.Instance.IsDataLoaded();
 
             settingsWindow.ShowDialog();
